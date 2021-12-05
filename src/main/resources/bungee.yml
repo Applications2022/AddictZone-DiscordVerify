@@ -1,0 +1,6 @@
+name: DiscordVerify
+version: '${project.version}'
+main: de.ruben.discordverify.DiscordVerify
+description: Discord Verify AddictZone
+depends:
+  - LuckPerms
