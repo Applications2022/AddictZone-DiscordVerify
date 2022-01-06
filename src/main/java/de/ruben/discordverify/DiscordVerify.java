@@ -43,7 +43,7 @@ public final class DiscordVerify extends Plugin {
     public void onEnable() {
         instance = this;
         //this.mongoDBStorage = new MongoDBStorage( "localhost", "Currency", 27017, MongoClientOptions.builder().codecRegistry(CodecRegistries.fromRegistries(MongoClient.getDefaultCodecRegistry(), CodecRegistries.fromCodecs(new TransactionCodec()))).build());
-        this.mongoDBStorage = new MongoDBStorage( 10, "localhost", "Currency", 27017, "currency", "wrgO4FTbV6UyLwtMzfsp", MongoClientOptions.builder().codecRegistry(CodecRegistries.fromRegistries(MongoClient.getDefaultCodecRegistry(), CodecRegistries.fromCodecs())).build());
+        this.mongoDBStorage = new MongoDBStorage( 10, "localhost", "admin", 27017, "currency", "rni1PbUbxYp4JTrPaMb8", MongoClientOptions.builder().codecRegistry(CodecRegistries.fromRegistries(MongoClient.getDefaultCodecRegistry(), CodecRegistries.fromCodecs())).build());
 
         this.mongoDBStorage.connect();
 

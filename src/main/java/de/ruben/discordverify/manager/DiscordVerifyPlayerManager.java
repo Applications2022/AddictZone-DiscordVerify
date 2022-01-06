@@ -194,6 +194,6 @@ public class DiscordVerifyPlayerManager {
 
 
     private static MongoCollection<Document> getCollection(){
-        return DiscordVerify.getInstance().getMongoDBStorage().getMongoDatabase().getCollection("Data_DiscordVerify");
+        return DiscordVerify.getInstance().getMongoDBStorage().getMongoClient().getDatabase("Discord").getCollection("Data_DiscordVerify");
     }
 }
