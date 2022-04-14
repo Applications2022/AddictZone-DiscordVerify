@@ -52,7 +52,7 @@ public final class DiscordVerify extends Plugin {
 
         try {
             this.jda = JDABuilder
-                    .createDefault("OTE2NjY0MTc0Nzk5NjQ2Nzkw.YatcCg.C2KAuVUZ3Fw0t3QQJZGsOQFEh2g")
+                    .createDefault("d")
                     .addEventListeners(new DiscordListenerAdapter())
                     .build();
         } catch (LoginException e) {
